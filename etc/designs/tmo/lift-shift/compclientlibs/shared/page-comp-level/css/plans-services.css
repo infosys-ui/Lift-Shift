@@ -1,0 +1,179 @@
+/*
+============================
+  Lift and Shift/plan-services.css
+============================
+*/ .plans-service-content .plans-service-list{
+	font-size:0.9em
+}
+.plans-service-content .table > thead > tr > th {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    vertical-align: bottom;
+    color: #9b9b9b;
+    font-weight: normal;
+}
+.plans-service-content a{
+    color:#3778c7;
+}
+.plans-service-content a:hover{color: #e20074;}
+.plans-service-content .table{
+    font-size: 13px;
+    font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+.plans-service-content .table .col1 {
+	width: 40%;
+}
+.plans-service-content .table .col2 {
+	width: 15%;
+}
+.plans-service-content .table .col3, .plans-service-content .table .col4, .plans-service-content .table .col5 {
+	width: 5%;
+}
+.plans-service-content .table .col6 {
+	width: 8%;
+}
+.plans-service-content .table .col7 {
+	width: 22%;
+}
+.plans-service-content .table {
+	width: 100%;
+}
+
+/*--- plans-services sprite start ---*/
+.plansprite-icon {
+    background-image: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/icon-sprites-med.png");
+    height: 16px;
+    margin: 0 5px 0 0;
+    width: 17px;
+    display: inline-block;
+}
+.icon-discussion-correct {
+    background-position: -80px -10px;
+}
+.icon-like{
+    background-position: -80px -1424px;
+}
+.icon-bookmark{
+    background-position: -144px -1424px;
+}
+.icon-comment {
+    background-position: -16px -1424px;
+}
+.icon-discussion-green {
+    background-position: -208px -10px;
+}
+.icon-blogpost {
+    background-position: -16px -138px;
+}
+/*--- plans-services sprite end ---*/
+/*--- plans-services starts ---*/
+.plans-heading{
+  background-color: #fafafa; 
+  border:1px solid #dadada;
+  border-bottom: 0;
+}
+.login-sub-heading{
+  	background-color: #e5eef7;
+    border: 1px solid #96c2ee;
+}
+.subheading-color{
+  color: #3a67a1;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.subheading-color.active {
+	background-color: #e8e8e8;
+}
+.plans-support{
+  background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #dadada;
+    border-radius: 0;
+    //margin-bottom: 15px;
+    padding: 10px;
+}
+.aside-item{
+  background: none repeat scroll 0 0 #e0e0e0;
+  border: 1px solid #dadada;
+    border-radius: 0; 
+}
+.aside-item .form-control{
+  color: black;
+}
+.plan-services .content-tab .nav-tabs > li.active > a, .plan-services .nav-tabs > li.active > a:hover, .plan-services .nav-tabs > li.active > a:focus{
+  color: #e20074;
+  font-weight: bold;
+}
+.jive-icon-med{
+  background-image: url("../../../../globallibs/shared/img/icon-sprites-med.png");
+  height: 16px;
+  width: 17px;
+  display: inline-block;
+}
+.icon-blog-posts{
+  background-position: -16px -144px;
+}
+.icon-documents{
+  background-position: -16px -80px;
+}
+.icon-discussions{
+  background-position: -16px -16px;
+}
+.icon-rss{
+  background-position: -16px -588px;
+}
+.icon-list{
+  background: url("../../../../globallibs/shared/img/list-icons.png") ;
+  height: 16px;
+  width: 17px;
+}
+.inner-list-icon{
+  background-position: 41px -300px;
+  display: block;
+}
+.inner-grid-icon{
+  background-position: -102px -399px;
+  display: block;
+}
+.inner-tab-bgcolor{
+  background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
+}
+.inner-tab-bgcolor:first-child {
+	border-bottom: 0;
+}
+.inner-tab-bgcolor li input, .inner-tab-bgcolor li a, .inner-tab-bgcolor li select{
+  font-size: 13px !important;
+  text-transform: capitalize; 
+}
+
+.remove-tab-hover .nav-tabs > li > a:hover{
+  border-color: none !important;
+}
+.remove-tab-focus nav > li > a:hover, .nav > li > a:focus {
+  background-color: none !important;
+}
+.content-holder .nav-tabs > li > a,.main-nav-tabs-plan a{
+  //border-radius: 0;
+  outline: none;
+  background-color: transparent;
+  margin: 0 !important;
+  border:0 !important; 
+
+ }
+ .main-nav-tabs-plan{
+
+background: #f1f1f1; /* Old browsers */
+background: -moz-linear-gradient(top, #f1f1f1 53%, #e0e0e0 53%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(53%,#f1f1f1), color-stop(53%,#e0e0e0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f1f1f1 53%,#e0e0e0 53%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f1f1f1 53%,#e0e0e0 53%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f1f1f1 53%,#e0e0e0 53%); /* IE10+ */
+background: linear-gradient(to bottom, #f1f1f1 53%,#e0e0e0 53%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+}
+
+.plan-services .content-holder .nav-tabs > li > a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*--- plans-services ends ---*/

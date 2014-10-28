@@ -1,0 +1,83 @@
+/*
+
+
+============================
+  Lift and Shift/about.less
+============================
+*/
+.nav-pills {
+  border: 1px solid #cccccc;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+}
+.ua-android-4 .nav-justified.nav:before, .ua-android-4 .nav-justified.nav:after {
+	content: normal;
+}
+.nav-pills li a {
+  white-space: nowrap;
+  padding-top: 12px;
+}
+.ua-desktop .nav-pills li a:hover, .ua-desktop .nav-pills li.active a:link, .ua-desktop .nav-pills li.active a:hover, .ua-desktop .nav-pills li.active a:active {
+  background-color: #cccccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+article .content-holder {
+	display: none;
+}
+article .content-holder.active {
+	display: block;
+}
+@media (max-width: 767px) {
+  .nav-pills li a {
+    margin-bottom: 0 !important;
+    height: 46px;
+  }
+}
+@media (max-width: 767px) {
+  .nav-pills li {
+    border-bottom: 1px dotted #cccccc;
+  }
+}
+.leadership-team .accordion li .lh2-2 {
+  line-height: 2.2;
+}
+.list-style-circle {
+  list-style-type: circle;
+}
+.leadership-team .lh25-new {
+  line-height: 25px;
+}
+.list-style-disc {
+  list-style: disc inside none;
+}
+
+.leadership-team .accordion li p {
+	line-height: 2 !important;
+}
+.leadership-team figcaption {
+	position: absolute;
+	display: block;
+	margin-left: 105px;
+	margin-top: -30px;
+}
+#contents nav > ul > li a:link, #contents nav > ul > li a:visited, #contents nav > ul > li a:active {
+	color: #9b9b9b;
+}
+#contents nav > ul > li a:hover {
+	color: #6a6a6a;
+	cursor: pointer;
+}
+@media (max-width:767px) {
+#contents nav > ul > li {
+	display: block;
+	line-height: 2;
+}
+}
+#contents ul:not(.accordion) [id*="item"] {
+	display: none;
+}
+#contents ul:not(.accordion) [id*="item"].active {
+	display: block;
+}

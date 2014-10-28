@@ -1,0 +1,63 @@
+/*
+============================
+ Lift-Shift/search result.css
+============================
+*/
+
+.search-tabs .nav-tabs > li.active > a,
+.search-tabs .nav-tabs > li.active > a:hover,
+.search-tabs .nav-tabs > li.active > a:focus{
+    background-color: #ffffff;
+    color: #000000;
+    outline: 0;
+}
+.search-tabs .nav-tabs > li > a{
+    color: #6a6a6a;
+    border-radius: 0;
+}
+.search-result .pagination > li > a,
+.search-result .pagination > li > span{
+    border: 0;
+}
+@media (min-width:768px) {
+.search-tabs .list-group-item{
+    border: 0;
+    padding: 5px 15px;
+}
+}
+.product-tab-accessories .accessory-item {
+	height: 260px;
+	margin-bottom: 40px;
+}
+.product-tab-devices .device-item {
+	height: 600px;
+}
+.searched-result-info .review-rating .rating > span {
+    color: #aaa;
+    display: inline-block;
+    font-size: 16px;
+    height: 1em;
+    line-height: 1;
+    padding-left: 0;
+    width: 1em;
+}
+
+.search-tabs .btn {
+	height: 40px;
+	line-height: 38px;
+}
+
+@media (max-width: 767px) {
+    
+    .search-result .left-selection h5 {
+		background-color: #fff;
+		border: 1px solid #ccc;
+		cursor: pointer;
+    }
+	.search-result .tab-content .list-group {
+		display: none;
+	}
+	.search-result .tab-content .list-group-item {
+		text-align: center;
+	}
+}

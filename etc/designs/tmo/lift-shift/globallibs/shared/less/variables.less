@@ -1,0 +1,99 @@
+@import "@{tmus}/globallibs/less/variables.less";
+
+/*
+
+
+============================
+  Lift and Shift/variables.less
+============================
+*/
+
+@mobile: (@screen-sm - 1);					// 320px - 767px
+
+//reset media query breakpoints from Bootstrap 3.2:
+@phone: @mobile;			 				// "-ph" 320px - 767px
+@mini-tablet: 768px;		  				// "-xs" 768px same as tablet
+@tablet: @screen-sm;  						// "-sm" 768px
+@desktop: @screen-md;						// "-md" 992px
+@large-desktop: @screen-lg;					// "-lg" 1200px
+
+
+
+@page-padding: @grid-gutter-width / 2;
+
+@media (max-width:@phone) {
+	@page-padding: 15px;	
+}
+@media (min-width:@mini-tablet) {
+	@page-padding: 15px;	
+}
+@media (min-width:@tablet) {
+	@page-padding: 0;
+}
+@media (min-width:@desktop) {
+	@page-padding: 0;
+}
+@media (min-width:@large-desktop) {
+	@page-padding: 0;
+}
+
+
+
+//Generate the mobile version columns: 4 columns
+.col-mb-1 {
+	.make-xs-column(3);
+}
+.col-mb-2 {
+	.make-xs-column(6);
+}
+.col-mb-3 {
+	.make-xs-column(9);
+}
+.col-mb-4 {
+	.make-xs-column(12);
+}
+
+
+//Generate the mobile offset
+.col-mb-offset-1 {
+ 	margin-left: percentage((1 / 4));
+}
+.col-mb-offset-2 {
+ 	margin-left: percentage((2 / 4));
+}
+.col-mb-offset-3 {
+ 	margin-left: percentage((3 / 4));
+}
+.col-mb-offset-4 {
+ 	margin-left: percentage((4 / 4));
+}
+
+//Generate the mobile push columns
+.col-mb-push-1 {
+ 	left: percentage((1 / 4));
+}
+.col-mb-push-2 {
+ 	left: percentage((1 / 4));
+}
+.col-mb-push-3 {
+ 	left: percentage((1 / 4));
+}
+.col-mb-push-4 {
+ 	left: percentage((1 / 4));
+}
+
+//Generate the mobile pull columns
+.col-mb-pull-1 {
+ 	right: percentage((1 / 4));
+}
+.col-mb-pull-2 {
+ 	right: percentage((1 / 4));
+}
+.col-mb-pull-3 {
+ 	right: percentage((1 / 4));
+}
+.col-mb-pull-4 {
+ 	right: percentage((1 / 4));
+}
+
+

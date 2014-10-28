@@ -1,0 +1,135 @@
+@import "@{tmus}/globallibs/less/types.less";
+
+/*
+
+
+============================
+  Lift and Shift/types.less
+============================
+*/
+
+//fixing iOS scrolling issue
+.ua-ios body {
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+}
+
+.text-light {
+	font-family: 'Tele-GroteskNor', 'Arial Narrow';
+	font-weight: normal;
+}
+.text-normal {
+	font-family: 'Tele-GroteskHal', 'Arial Narrow';
+	font-weight: normal;
+}
+.text-bold {
+	font-family: 'Tele-GroteskFet', 'Arial Narrow';
+	font-weight: normal !important;
+}
+.text-bolder {
+	font-family:'Tele-GroteskUlt', 'Arial Narrow';
+	font-weight: normal !important;
+}
+
+body {
+	font-family: @font-family-base;
+	font-size: @font-size-base; //16px;
+	font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	margin-top: 0;
+	font-weight: normal;
+	.ua-ie-8 & {
+		font-weight: bold;
+	}
+	
+}
+h2, h4, h5 {
+	.text-bold;
+	.ua-ie-8 & {
+		font-weight: bold;
+	}
+}
+
+h1 {
+	.color-primary;
+	.text-bolder;
+	
+	.ua-ie-8 & {
+		font-weight: bolder;
+	}
+}
+@media (max-width: @phone) {
+h1 {
+	font-size: 35px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 22px;
+}
+}
+
+.subhead1 {
+	font-size: 28px;
+}
+.subhead2 {
+	font-size: 24px;
+}
+.subhead3 {
+	font-size: 20px;
+}
+@media (max-width: @phone) {
+.subhead1 {
+	font-size: 24px;
+}
+.subhead2 {
+	font-size: 20px;
+}
+}
+
+.small {
+	font-size: floor(@font-size-base * 0.8); //12px
+}
+
+.cta {
+	.text-normal;
+	.color-primary;
+}
+.cta:after {
+	content: url(../img/caret-right.png);
+	position: absolute;
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	margin-left: 5px;
+	padding-top: 2px;
+}
+.cta.no-caret:after {
+	content:"";
+}
+.legal {
+	.text-light;
+	font-size: floor(@font-size-base * 0.8); //12px
+	color: @gray-dark;
+}
+a:hover, button:hover {
+	text-decoration: none;
+}
+a.gray {
+	color: @gray;
+}
+a.gray:hover, a.gray:visited {
+	color: #000;
+}
+
+/*fixing hover color on accordion from mobile device*/
+.ua-mobile .accordion li a:hover {
+	color: @brand-primary !important;
+}

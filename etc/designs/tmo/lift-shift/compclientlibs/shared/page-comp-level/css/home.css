@@ -1,0 +1,54 @@
+/*
+
+
+============================
+ Lift-Shift/home.css
+============================
+*/
+
+.color-black{
+    color:#000000;
+}
+.smartphones-carousel.carousel-indicators {
+    bottom: 10px;;
+}
+.accessories-carousel.carousel-indicators {
+    bottom: -15px;
+}
+.text-italic{
+  font-style: italic;
+}
+ .network-details h3{
+    font-family: "Tele-GroteskHal",sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000;
+}
+.checkplans-title{color: #000000;
+    font-family: "Tele-GroteskHal",sans-serif;
+    font-size: 16px;
+    
+}
+.checkplans{
+    font-family: "Tele-GroteskHal",sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+.info-icon{
+    background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/info-icon.png") top left no-repeat;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-dropdown {
+    background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/down-arrow.png") no-repeat scroll center center transparent;
+    display: inline-block;
+    height: 14px;
+    vertical-align: middle;
+    width: 14px;
+    margin-left: 5px;
+}
+
+

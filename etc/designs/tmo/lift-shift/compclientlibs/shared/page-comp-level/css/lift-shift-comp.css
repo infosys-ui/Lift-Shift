@@ -1,0 +1,1054 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/*! * T-Mobile Lift and Shift Project V1.0 (http://www.t-mobile.com) * Copyright 2014 T-Mobile. *  */
+/*
+
+
+============================
+  BASE/variables.less
+============================
+*/
+.color-primary {
+  color: #e20074;
+}
+.color-success {
+  color: #22bb33;
+}
+.color-black {
+  color: #000;
+}
+.color-white {
+  color: #fff;
+}
+.color-gray-darker {
+  color: #333333;
+}
+.color-gray-dark {
+  color: #6a6a6a;
+}
+.color-gray {
+  color: #9b9b9b;
+}
+.color-gray-light {
+  color: #cccccc;
+}
+.color-gray-lighter {
+  color: #e8e8e8;
+}
+.bg-primary {
+  background-color: #e20074;
+}
+.bg-success {
+  background-color: #22bb33;
+}
+.bg-black {
+  background-color: #000;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-gray-darker {
+  background-color: #333333;
+}
+.bg-gray-dark {
+  background-color: #6a6a6a;
+}
+.bg-gray {
+  background-color: #9b9b9b;
+}
+.bg-gray-light {
+  background-color: #cccccc;
+}
+.bg-gray-lighter {
+  background-color: #e8e8e8;
+}
+/*============================  Lift and Shift/variables.less============================*/
+/*============================  Lift and Shift/home.css============================*/
+body {
+  background-color: #f5f5f5;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: #fff;
+  }
+}
+footer {
+  position: relative;
+  min-height: 500px;
+  background-color: #dedede;
+  width: 100%;
+}
+main {
+  position: relative;
+  min-height: 500px;
+}
+/*background setup*/
+.background-dsk {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  height: 160%;
+  background-color: #f5f5f5;
+  background-image: url(../../../../globallibs/shared/img/bg-home.dsk.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+.background-mob {
+  background-image: url(../../../../globallibs/shared/img/bg-home.mob.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+@media (min-width: 768px) {
+  .background-mob {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  .background-dsk {
+    background-position: center 50px;
+  }
+}
+@media (max-width: 767px) {
+  .background-dsk {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+}
+/*end background setup*/
+/*hero component*/
+.co_hero {
+  min-height: 200px;
+  background-color: #fff;
+}
+.co_hero .btn.learn-ore {
+  height: 60px;
+  padding: 0;
+  line-height: 58px;
+}
+@media (max-width: 767px) {
+  .co_hero {
+    min-height: 520px;
+    margin-top: 3px;
+  }
+  .co_hero .learn-more {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 90%;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 479px) {
+  .co_hero .learn-more {
+    margin-top: 85%;
+  }
+}
+@media (max-width: 350px) {
+  .co_hero .learn-more {
+    margin-top: 75%;
+  }
+}
+/*end hero component*/
+/*globe image position*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .co_img-text-horizontal .img-globe {
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+}
+/*end globe image position*/
+/*============================ Lift-Shift/home.css============================*/
+.color-black {
+  color: #000000;
+}
+.smartphones-carousel.carousel-indicators {
+  bottom: 10px;
+}
+.accessories-carousel.carousel-indicators {
+  bottom: -15px;
+}
+.carousel-indicators li {
+  box-shadow: 0 2px 2px #aaaaaa inset;
+  width: 12px;
+  height: 12px;
+  background: #E0E1E3;
+}
+.carousel-indicators li.active {
+  background: #E20074;
+}
+.carousel-control.right {
+  background: none;
+  right: -37px;
+}
+.carousel-control.left {
+  background: none;
+  left: -37px;
+}
+@media (max-width: 767px) {
+  .carousel-control.right {
+    right: -22px;
+  }
+  .carousel-control.left {
+    left: -22px;
+  }
+}
+.carousel-control {
+  top: 15%;
+  opacity: 1;
+  bottom: auto;
+  width: 45px;
+  height: 45px;
+}
+.text-italic {
+  font-style: italic;
+}
+.network-details h3 {
+  font-family: "Tele-GroteskHal", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000;
+}
+.checkplans-title {
+  color: #000000;
+  font-family: "Tele-GroteskHal", sans-serif;
+  font-size: 16px;
+}
+.checkplans {
+  font-family: "Tele-GroteskHal", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+.info-icon {
+  background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/info-icon.png") top left no-repeat;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-dropdown {
+  background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/down-arrow.png") no-repeat scroll center center transparent;
+  display: inline-block;
+  height: 14px;
+  vertical-align: middle;
+  width: 14px;
+  margin-left: 5px;
+}
+/*============================  Lift and Shift/cell-phones.css============================*/
+/*  top carosel */
+.spritespin img {
+  cursor: url("../../../../globallibs/shared/img/images/360_rotate_cursor.png"), default !important;
+}
+.spritespin {
+  margin: 0 auto;
+}
+.samsung-carousel-top a.color-black:hover {
+  color: #000000;
+}
+.samsung-carousel-top .color-switch {
+  height: 32px;
+  width: 34px;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px 2px 2px 2px;
+  cursor: pointer;
+  line-height: 2px;
+  margin: 10px 0 20px;
+  padding: 8px;
+}
+.samsung-carousel-top .color-switch.active {
+  border-color: #B4B4B4;
+}
+.samsung-carousel-top .color-switch img {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+}
+.samsung-carousel-top .color-switch .switches {
+  background: none repeat scroll 0 0 #E1E1E1;
+  display: block;
+  height: 10px;
+  margin: 4px;
+  width: 10px;
+}
+.samsung-carousel-top .product-360 {
+  background-image: url("../../../../globallibs/shared/img/360_indicator.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.samsung-carousel-top .carousel-indicators {
+  bottom: -40px;
+}
+.samsung-carousel-top .carousel-indicators li,
+.samsung-carousel-top .carousel-indicators .active {
+  margin: auto 5px;
+  width: 14px;
+  height: 14px;
+}
+.samsung-carousel-top .carousel-control {
+  top: 45%;
+}
+.samsung-carousel-top .carousel-control.right {
+  right: -10px;
+}
+.samsung-carousel-top .carousel-control.left {
+  left: 10px;
+}
+.samsung-carousel-top .credit-rating,
+.samsung-carousel-top .credit-rating button,
+.samsung-carousel-top .credit-rating button .filter-option {
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  width: 160px !important;
+  color: #E20074;
+  box-shadow: none;
+}
+.samsung-carousel-top .dropdown-menu > li > a {
+  background-color: #ffffff;
+  color: #E20074;
+  text-decoration: none;
+}
+.samsung-carousel-top .dropdown-menu > li > a:hover,
+.samsung-carousel-top .dropdown-menu > li > a:focus {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+.samsung-carousel-top .white-carousel,
+.samsung-carousel-top .black-carousel {
+  display: none;
+}
+.samsung-carousel-top .gold-carousel {
+  display: block;
+}
+@media (max-width: 767px) {
+  .samsung-carousel-top .color-switch {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+.icon-wea-info {
+  background-position: -80px -1741px;
+  height: 19px;
+  width: 15px;
+}
+/* up-front-modal */
+@media (min-width: 992px) {
+  #up-front-modal .modal-dialog {
+    margin: 30px auto;
+    width: 85%;
+  }
+  .min-h350 {
+    min-height: 350px;
+  }
+}
+@media (max-width: 991px) {
+  #up-front-modal .modal-dialog {
+    margin: 30px auto;
+    width: 78%;
+  }
+  .min-h350 {
+    min-height: 350px;
+  }
+}
+@media (max-width: 767px) {
+  #up-front-modal .modal-dialog {
+    margin: 30px auto;
+    width: 98%;
+  }
+  .min-h350 {
+    min-height: 50px;
+  }
+  .us-vs-them .cellphone-tabs,
+  .us-vs-them ul.cellphone-detail li.title-li {
+    height: 130px;
+  }
+  .us-vs-them ul li {
+    height: 90px;
+    padding: 10px;
+    border-bottom: 1px dotted #CCCCCC;
+  }
+}
+#up-front-modal ul.accordion > li > a {
+  font-size: 18px;
+  line-height: 1;
+}
+#up-front-modal .font60 {
+  font-size: 60px;
+}
+.align-top {
+  vertical-align: top;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.list-style-disc {
+  list-style: disc;
+}
+.btn-cellphone {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  width: auto;
+  margin-right: 5px;
+  position: relative;
+}
+ul.cellphone-tabs li .btn-cellphone {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+  width: auto;
+  margin-right: 5px;
+  position: relative;
+}
+ul.cellphone-tabs li.active .btn-cellphone {
+  background: none repeat scroll 0 0 #E20074;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  color: #FFFFFF;
+  outline: 0 none;
+}
+ul.cellphone-tabs li.active .btn-cellphone:after {
+  background: none repeat scroll 0 0 transparent;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #E20074;
+  bottom: -7px;
+  content: "";
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: -6px;
+  position: absolute;
+  width: 0;
+}
+.us-vs-them ul li {
+  height: 80px;
+  padding: 10px;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.us-vs-them ul.cellphone-tabs li {
+  border: 0;
+}
+.us-vs-them ul.cellphone-tabs li a {
+  border-radius: 5px;
+}
+.us-vs-them .cellphone-tabs,
+.us-vs-them ul.cellphone-detail li.title-li {
+  height: 50px;
+}
+.us-vs-them ul.cellphone-tabs li {
+  height: auto;
+  padding: 0;
+}
+.cellphone-tabs .btn:active,
+.cellphone-tabs .btn.active {
+  box-shadow: none;
+}
+/*rating css*/
+.rating > span {
+  font-size: 16px;
+  color: #aaa;
+  display: inline-block;
+  width: 1.0em;
+  height: 1.0em;
+  line-height: 1.0;
+}
+.rating > span:before {
+  content: "\f005";
+  display: inline-block;
+  position: absolute;
+}
+.rating > span > .star:before {
+  content: "\f005";
+  color: #E20074;
+  width: 0;
+  height: 1.0em;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+}
+.rating > span > .star.one:before {
+  width: 0.1em;
+}
+.rating > span > .star.two:before {
+  width: 0.2em;
+}
+.rating > span > .star.three:before {
+  width: 0.3em;
+}
+.rating > span > .star.four:before {
+  width: 0.4em;
+}
+.rating > span > .star.five:before {
+  width: 0.5em;
+}
+.rating > span > .star.six:before {
+  width: 0.55em;
+}
+.rating > span > .star.seven:before {
+  width: 0.6em;
+}
+.rating > span > .star.eight:before {
+  width: 0.7em;
+}
+.rating > span > .star.nine:before {
+  width: 0.8em;
+}
+.rating > span > .star.ten:before {
+  width: 1.0em;
+}
+/*rating css end */
+.ratingdisplay > div {
+  font-size: 14px;
+}
+/*=======================  popover CSS========================*/
+.float-nav ul li {
+  padding: 20px 10px;
+}
+.float-nav ul li.active,
+.float-nav ul li:hover {
+  background: #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0 0 3px inset;
+  cursor: pointer;
+}
+.float-nav ul li a,
+.float-nav ul li.active a {
+  color: #6a6a6a !important;
+  font-size: 14px !important;
+}
+.float-nav ul li a:hover {
+  color: #6a6a6a !important;
+}
+.float-nav ul li.active:after {
+  content: "";
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  display: block;
+  position: absolute;
+  border-width: 10px;
+  border-bottom-width: 0;
+  border-top-color: #e1e1e1;
+  bottom: -10px;
+  left: 46%;
+}
+.float-nav ul li:hover:after {
+  content: "";
+  border-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  display: block;
+  position: absolute;
+  border-width: 10px;
+  border-bottom-width: 0;
+  border-top-color: #e1e1e1;
+  bottom: -10px;
+  left: 46%;
+}
+#fademenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  background: #f5f5f5;
+  width: 86.9%;
+  border: 1px solid #CCCCCC;
+}
+#fademenu ul li {
+  padding: 12px;
+}
+#fademenu ul li.active,
+#fademenu ul li:hover {
+  border-radius: 0;
+}
+#fademenu .back-top-top {
+  background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/back-to-top-norrmal.png") 10px 17px no-repeat;
+  padding: 20px;
+}
+#fademenu .back-top-top:hover {
+  background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/back-to-top-hover.png") 10px 17px no-repeat;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .fademenu-holder {
+    background: #F5F5F5;
+    margin: 0 -15px;
+    padding: 0px 10px 15px 10px;
+  }
+}
+/*==========Samsung popover ==============*/
+.gallery_plus {
+  background: #6a6a6a url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/plus.png") no-repeat center;
+  height: 45px;
+  width: 45px;
+  border: 3px solid #fff;
+  cursor: pointer;
+  outline: none !important;
+}
+.gallery_plus:hover {
+  background-color: #E20074;
+}
+.gallery_minus {
+  background: #e20074 url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/minus.png") no-repeat scroll center center;
+  height: 45px;
+  width: 45px;
+  border: 3px solid #fff;
+  cursor: pointer;
+  outline: none !important;
+}
+@media (max-width: 767px) {
+  .gallery_plus {
+    background-image: none;
+    width: 30px;
+    height: 30px;
+  }
+  .gallery_minus {
+    width: 30px;
+    height: 30px;
+  }
+  .scale_pin-ph {
+    background-color: #E20074;
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    border: 4px solid #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transform: scale(0);
+    -moz-transition: all 0.5s ease 0s;
+  }
+  .current {
+    background: none repeat scroll 0 0 #e20074;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+  }
+  .feature-gallery-image .gallery-pin1 {
+    left: 25.6%;
+    top: 19.9%;
+  }
+  .feature-gallery-image .gallery-pin2 {
+    left: 26.3%;
+    top: 28.6%;
+  }
+  .feature-gallery-image .gallery-pin3 {
+    left: 1.9%;
+    top: 60%;
+  }
+  .feature-gallery-image .gallery-pin4 {
+    left: 68.6%;
+    top: 52.4%;
+  }
+  .feature-gallery-image .gallery-pin5 {
+    left: 65.7%;
+    top: 89%;
+  }
+}
+@media (min-width: 768px) {
+  .feature-gallery-image .gallery-pin1 {
+    left: 32.6%;
+    top: 15.9%;
+  }
+  .feature-gallery-image .gallery-pin2 {
+    left: 33.3%;
+    top: 25%;
+  }
+  .feature-gallery-image .gallery-pin3 {
+    left: 15.5%;
+    top: 56%;
+  }
+  .feature-gallery-image .gallery-pin4 {
+    left: 63.4%;
+    top: 49.2%;
+  }
+  .feature-gallery-image .gallery-pin5 {
+    left: 61%;
+    top: 88%;
+  }
+}
+.pt70 {
+  padding-top: 70px;
+}
+/*======== Samsung Tabs =========*/
+.samasung-tabs ul {
+  border: none;
+}
+.nav-tabs > li {
+  display: inline-block;
+  float: none;
+}
+.samasung-tabs ul li a {
+  background: none repeat scroll 0 0 #e0e1e3;
+  box-shadow: 0 0 1px #acacac inset;
+  display: inline-block;
+  border-radius: 50%;
+  height: 14px;
+  margin: 0 9px;
+  position: static;
+  width: 14px;
+  padding: 0;
+}
+.samasung-tabs > .nav-tabs > li.active > a,
+.samasung-tabs .nav-tabs > li.active > a:hover,
+.samasung-tabs .nav-tabs > li.active > a:focus {
+  background-color: #e20074;
+  cursor: default;
+  outline: none;
+}
+.tab-content .tab-pane {
+  background: #fff;
+  padding: 9px;
+}
+.popover {
+  min-width: 460px;
+}
+.popover .popover-title {
+  display: none;
+}
+/*======== Samsung Popover =========*/
+/*============================  Lift and Shift/feature carousel============================*/
+@media (min-width: 768px) {
+  .bg-rockford-photostory-sm {
+    background-image: url("../../../../globallibs/shared/img/bg-rockford-photostory-1240x700.jpg");
+    background-position: right top ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .bg-rockford-Photostory-powersavemode-sm {
+    background-image: url("../../../../globallibs/shared/img/bg-rockford-Photostory-1240x700-powersavemode.jpg");
+    background-position: right top ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .bg-rockford_photostory-networkspeed-sm {
+    background-image: url("../../../../globallibs/shared/img/bg-rockford_photostory-1240x700-networkspeed.jpg");
+    background-position: left top ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .bg-rockford-Photostory-shealth-sm {
+    background-image: url("../../../../globallibs/shared/img/bg-rockford-Photostory-1240x700-shealth.jpg");
+    background-position: right top ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .bg-rockford-photostory-Camera-sm {
+    background-image: url("../../../../globallibs/shared/img/bg-rockford-photostory-1240x700-Camera.jpg");
+    background-position: left top ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+}
+.feature-carousel .icon-pill-left {
+  background-position: 0 -974px;
+  height: 40px;
+  width: 40px;
+}
+.feature-carousel .icon-pill-right {
+  background-position: -53px -853px;
+  height: 40px;
+  width: 40px;
+}
+.feature-carousel .carousel-control.right {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  right: -6px;
+}
+.feature-carousel .carousel-control.left {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  left: -6px;
+}
+.feature-carousel .icon-pill-left:hover {
+  background-position: -2px -387px;
+  height: 58px;
+  width: 55px;
+}
+.feature-carousel .icon-pill-right:hover {
+  background-position: -2px -445px;
+  height: 58px;
+  width: 55px;
+}
+.feature-carousel .carousel-control {
+  bottom: auto;
+  height: 45px;
+  opacity: 1;
+  top: 50%;
+  width: 75px;
+}
+@media (min-width: 768px) {
+  .feature-carousel .t200-sm {
+    position: absolute;
+    top: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .feature-carousel .t140-sm {
+    position: absolute;
+    top: 140px;
+  }
+}
+.feature-carousel .h650-sm {
+  height: 546px;
+}
+@media (max-width: 767px) {
+  .feature-carousel .color-gray-dark-ph {
+    color: #6a6a6a;
+  }
+  .feature-carousel .carousel-control {
+    bottom: auto;
+    height: 45px;
+    opacity: 1;
+    top: 30%;
+    width: 100px;
+  }
+}
+/*======== User Rating =========*/
+.user-rating .font50-new {
+  font-size: 50px;
+}
+/* accessories-section */
+@media (min-width: 768px) and (max-width: 991px) {
+  .accessories-section .carousel-control.left {
+    left: -22px;
+  }
+  .accessories-section .carousel-control.right {
+    right: -22px;
+  }
+}
+.accessories-section .carousel-indicators {
+  bottom: -50px;
+}
+.accessories-section .carousel-control.left {
+  left: -37px;
+}
+.accessories-section .carousel-control.right {
+  right: -38px;
+}
+.accessories-section img {
+  height: 210px !important;
+  width: 210px !important;
+}
+@media (max-width: 767px) {
+  .accessories-section .carousel-control.left {
+    left: -22px;
+  }
+  .accessories-section .carousel-control.right {
+    right: -22px;
+  }
+}
+/* reviews tab start*/
+.reviewstab .nav-tabs > li {
+  margin-bottom: 0;
+}
+.reviewstab .nav-tabs > li.active > a,
+.reviewstab .nav-tabs > li.active > a:hover,
+.reviewstab .nav-tabs > li.active > a:focus {
+  background-color: #fff;
+  cursor: default;
+}
+.reviewstab .nav-tabs > li.active > a,
+.reviewstab .nav-tabs > li.active > a:hover,
+.reviewstab .nav-tabs > li.active > a:focus {
+  border-image: none;
+  color: #E20074;
+  background-color: #fff;
+  border-color: #fff;
+}
+.reviewstab .nav > li > a:hover,
+.reviewstab .nav > li > a:focus {
+  background-color: #fff;
+  text-decoration: none;
+}
+.reviewstab .nav-tabs > li > a:hover {
+  border-color: #fff;
+}
+.reviewstab .nav-tabs > li.active > a,
+.reviewstab .nav-tabs > li.active > a:hover,
+.reviewstab .nav-tabs > li.active > a:focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+.reviewstab .nav > li > a {
+  display: block;
+  padding: 10px 15px;
+  position: relative;
+  color: #9B9B9B;
+}
+.reviewstab .tab-content .personalinfo {
+  color: #9B9B9B;
+}
+.reviewstab .tab-content .help-unhelp li {
+  display: inline;
+  color: #E20074;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+.reviewstab .tab-content .help-unhelp .help-unhelp-vote {
+  background: url("../../../../globallibs/shared/img/thumbdownvoting.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding-left: 20px;
+  background-position: 0px -42px;
+}
+.reviewstab .tab-content .help-unhelp .help-help-vote {
+  background: url("../../../../globallibs/shared/img/thumbupvoting.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding-left: 20px;
+  background-position: 0px -43px;
+}
+.reviewstab .tab-content .help-unhelp .help-unhelp-vote .help-unhelp-vote a,
+.help-unhelp-vote .help-unhelp-vote li {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.reviewstab .tab-content .help-unhelp .reportlink {
+  background: url("../../../../globallibs/shared/img/iconreport.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding-left: 20px;
+}
+.ratingdisplay .ratingimage {
+  background: url("../../../../globallibs/shared/img/ratings-img.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  float: right;
+  height: 8px;
+  margin: 4px 0;
+  overflow: hidden;
+  padding: 0;
+  width: 140px;
+}
+.ratingdisplay .ratingimage_2 {
+  background-position: 0 -8px;
+}
+.ratingdisplay .ratingimage_2 {
+  background-position: 0 -8px;
+}
+.ratingdisplay .ratingimage_3 {
+  background-position: 0 -16px;
+}
+.ratingdisplay .ratingimage_4 {
+  background-position: 0 -24px;
+}
+.ratingdisplay .ratingimage_5 {
+  background-position: 0 -32px;
+}
+.ratingdisplay .clearfix {
+  clear: both;
+}
+.reviews-paginatioreviews-paginatio {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+.reviews-pagination > li {
+  display: inline;
+}
+.reviews-pagination > li > a,
+.reviews-pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.25;
+  text-decoration: none;
+  color: #e20074;
+  background-color: #ffffff;
+  margin-left: -1px;
+}
+.reviews-pagination > li:first-child > a,
+.reviews-pagination > li:first-child > span {
+  margin-left: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.reviews-pagination > li:last-child > a,
+.reviews-pagination > li:last-child > span {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.reviews-pagination > .active > a,
+.reviews-pagination > .active > span,
+.reviews-pagination > .active > a:hover,
+.reviews-pagination > .active > span:hover,
+.reviews-pagination > .active > a:focus,
+.reviews-pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #fff;
+  cursor: default;
+}
+.reviews-pagination > .disabled > span,
+.reviews-pagination > .disabled > span:hover,
+.reviews-pagination > .disabled > span:focus,
+.reviews-pagination > .disabled > a,
+.reviews-pagination > .disabled > a:hover,
+.reviews-pagination > .disabled > a:focus {
+  color: #cccccc;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+.reviews-pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  background-color: #fff;
+  color: #666666;
+  float: left;
+  line-height: 1.25;
+  margin-left: -1px;
+  padding: 6px 12px;
+}
+.reviews-pagination > li > a,
+.pagination > li > span {
+  background-color: #fff;
+  color: #9b9b9b;
+  float: left;
+  line-height: 1.25;
+  margin-left: -1px;
+  padding: 6px 12px;
+  position: relative;
+  text-decoration: none;
+}
+.reviews-pagination > li {
+  display: inline;
+}
+.reviews-pagination {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px 0;
+  padding-left: 0;
+}
+/*  ends */
+/*======== Review section icons starts=========*/
+.help-help-vote:hover,
+.help-unhelp-vote:hover {
+  background: url("../../../../globallibs/shared/img/thumbupvoting.png") no-repeat scroll 0 -123px rgba(0, 0, 0, 0) !important;
+  padding-left: 20px;
+}
+.reportlink:hover {
+  background: url("../../../../globallibs/shared/img/iconreport.png") no-repeat scroll 0 -41px rgba(0, 0, 0, 0) !important;
+  padding-left: 20px;
+}
+.flag-popup-data {
+  left: 180px;
+  top: -20px;
+  background-color: #ffffff;
+  border-color: #d5d5d5;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+  border-width: 1px;
+  margin-top: 15px;
+  z-index: 1000;
+}
+.flag-popup-data .form-control:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(226, 0, 116, 0.6);
+}
+.flag-popup-data textarea {
+  resize: none;
+}
+/*======== Review section icons ends=========*/
+/*======== progressbar starts=========*/
+#Reviews .progress {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  height: 8px;
+  margin-bottom: 9px;
+  overflow: hidden;
+}
+/*======== progressbar ends=========*/

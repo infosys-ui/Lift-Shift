@@ -1,0 +1,59 @@
+
+@media (max-width: 767px) {
+	.visual:before {
+    background: url("../../../../globallibs/shared/img/byod-process-divider-mobile.png") no-repeat scroll center center rgba(0, 0, 0, 0)!important;
+    content: "";
+    display: block;
+    height: 48px;
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    height: 90px;
+    left: 47%
+	}
+	.modal-dialog {
+    width: 96%!important;
+	}
+	
+}
+.visual:before {
+    background: url("../../../../globallibs/shared/img/byod-process-divider.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    content: "";
+    float: left;
+    height: 100%;
+    width: 40px;
+    height: 60px;
+}
+
+.how-to-switch p {
+    margin: auto;
+    width: 56%;
+}
+
+.ls-decimal {
+	list-style: decimal inside;
+}
+.modal-dialog {
+    width: 54%;
+}
+.sim-card-section figure img {
+	width: 280px;
+}
+.list-disc-type {
+	list-style-type: disc;
+}
+.selected-text .icon-complete {
+	vertical-align: text-top;
+}
+
+.select-phone-section .slick-slide {
+	cursor: pointer;
+}
+
+.select-phone-section .slick-slide.active, .sim-card-section .product-item-container.active {
+	border: 1px solid #ccc;
+	background-color: #f6f5f5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

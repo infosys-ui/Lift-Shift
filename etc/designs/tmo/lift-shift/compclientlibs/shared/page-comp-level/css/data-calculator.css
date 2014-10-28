@@ -1,0 +1,170 @@
+/*
+
+
+======================================
+  Lift and Shift/data-calculator.css
+======================================
+*/
+
+.recommended-plan {
+	z-index: 10;
+	padding: 20px 30px;
+	position: relative;
+	top: 0;
+}
+@media (max-width: 767px) {
+.recommended-plan {
+	width: 100%;
+	left: 0;
+	padding: 15px !important;
+}
+}
+@media (min-width: 768px) {
+.recommended-plan {
+	width: 750px;
+}	
+}
+@media (min-width: 992px) {
+.recommended-plan {
+	width: 970px;
+}	
+}
+@media (min-width: 1200px) {
+.recommended-plan {
+	width: 1170px;
+}	
+}
+.recommended-plan .phone-plan .btn {
+	width: 25%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	display: none;
+}
+.recommended-plan .phone-plan.active .btn {
+	display: table-cell;
+}
+.recommended-plan .tablet-plan .btn {
+	width: 14.286%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);	
+	display: none;
+}
+.recommended-plan .tablet-plan.active .btn {
+	display: table-cell;
+}
+@media (max-width:479px) {
+.recommended-plan .btn {
+	font-size: 14px;
+}
+}
+.recommended-plan .btn-group-justified .btn.active {
+	color: #fff;
+	background-color: #e20074;
+	background-image: -moz-linear-gradient(#fb0081, #e20074);
+	background-image: -webkit-linear-gradient(#fb0081, #e20074);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fb0081), to(#e20074));
+	background-image: -o-linear-gradient(#fb0081, #e20074);
+	background-image: linear-gradient(#fb0081, #e20074);
+	border-color: #ccc;
+}
+.recommended-plan .btn-group-justified .btn.active:hover {
+	background-color: #c90067;
+}
+.ui-widget-content .ui-slider-handle {
+	background: #e20074;
+	background-image: -moz-linear-gradient(#fb0081, #e20074);
+	background-image: -webkit-linear-gradient(#fb0081, #e20074);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fb0081), to(#e20074));
+	background-image: -o-linear-gradient(#fb0081, #e20074);
+	background-image: linear-gradient(#fb0081, #e20074);
+	border: 1px solid #af005a !important;
+}
+.ui-corner-all {
+	border-radius: 0.6em;
+}
+.ui-slider-range {
+	background: #9b9b9b;
+}
+
+.ua-mobile-ipad .ui-slider {
+	z-index: -10;
+}
+
+.recommended-plan .ui-state-disabled {
+	opacity: 1;
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.data-calculator .select-devices .btn {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 0;
+}
+@media (max-width:479px) {
+.data-calculator .select-devices .btn {
+	font-size: 14px;
+	padding-left: 30px;
+}
+}
+.data-calculator .select-devices .btn.select-phone:before {
+	content: url(../../../../globallibs/shared/img/phone.png);
+	position: absolute;
+	display: inline-block;
+	margin-left: -25px;
+	margin-top: 8px;
+}
+.data-calculator .select-devices .btn.select-phone.active:before {
+	content: url(../../../../globallibs/shared/img/phone-h.png);
+}
+.data-calculator .select-devices .btn.select-tablet:before {
+	content: url(../../../../globallibs/shared/img/tablet.png);
+	position: absolute;
+	display: inline-block;
+	margin-left: -35px;
+	margin-top: 5px;
+}
+.data-calculator .select-devices .btn.select-tablet.active:before {
+	content: url(../../../../globallibs/shared/img/tablet-h.png);
+}
+.data-calculator .select-devices .btn.select-hotspot:before {
+	content: url(../../../../globallibs/shared/img/wi-fi.png);
+	position: absolute;
+	display: inline-block;
+	margin-left: -28px;
+	margin-top: 3px;
+}
+.data-calculator .select-devices .btn.select-hotspot.active:before {
+	content: url(../../../../globallibs/shared/img/wi-fi-h.png);
+}
+.ua-ios-6 .data-calculator .btn.select-phone:before, 
+.ua-ios-6 .data-calculator .btn.select-tablet:before {
+	display: block;
+	right: 70%;
+}
+.ua-ios-6 .data-calculator .btn.select-hotspot:before {
+	display: block;
+	right: 75%;
+}
+
+#slider-recommend .ui-slider-handle {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+	top: -21px;
+	z-index: 10;
+	border: 0.6em solid transparent !important;
+	border-bottom-color: #e20074 !important;
+	background: transparent !important;
+}
+#slider-recommend .ui-corner-all {
+	-webkit-border-radius: 0.6em 0 0 0.6em;
+	-moz-border-radius: 0.6em 0 0 0.6em;
+	border-radius: 0.6em 0 0 0.6em;
+}
+
+/*deubggin ipad spacing bug at the "Recommended Data Plan*/
+.data-calculator .phone-plan.active, .data-calculator .tablet-plan.active {
+	height: 48px;
+}
+

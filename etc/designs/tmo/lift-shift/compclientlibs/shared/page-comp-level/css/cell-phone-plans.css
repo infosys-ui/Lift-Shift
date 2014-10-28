@@ -1,0 +1,513 @@
+/* floating nav */
+.float-nav {
+	margin: 0 15px;
+}
+.float-nav ul li {
+	padding: 20px 10px;
+	margin-bottom: 15px;
+}
+.float-nav ul li.active, .float-nav ul li:hover {
+	background: #e1e1e1 !important;
+	border-radius: 5px;
+	box-shadow: inset 0 0 4px rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.float-nav ul li.active:after, .float-nav ul li:hover:after {
+	content: url(../../../../globallibs/shared/img/nav-caret.png);
+	display: block;
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	margin-left: -10px;
+}
+
+.float-nav ul li:hover a, .float-nav ul li.active a{
+	color: #333333;
+}
+
+.float-nav ul li a {
+	color: #B6B6B6;
+}
+
+#fademenu,
+#fademenu1 {
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	background: #f5f5f5;
+	width: 86.9%;
+	border: 1px solid #CCCCCC;
+}
+#fademenu ul li,
+#fademenu1 ul li {
+	padding: 12px;
+}
+#fademenu ul li.active,
+#fademenu ul li:hover,
+#fademenu1 ul li.active,
+#fademenu1 ul li:hover {
+	border-radius: 0;
+}
+#fademenu .back-top-top,
+#fademenu1 .back-top-top {
+	background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/back-to-top-norrmal.png") 10px 17px no-repeat;
+	padding: 20px;
+}
+#fademenu .back-top-top:hover,
+#fademenu1 .back-top-top:hover {
+	background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/back-to-top-hover.png") 10px 17px no-repeat;
+	padding: 20px;
+}
+.lte-container {
+	position: relative;
+}
+
+@media (max-width: 767px) {
+.fademenu-holder {
+	background: #F5F5F5;
+	margin: 0 -15px;
+	padding: 0px 10px 15px 10px;
+}
+.lte-container .btn-lte-container a {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
+}
+
+}
+/* /floating nav */
+
+/* individual.html */
+
+.lte-container{
+	position: relative;
+}
+.lte-container .btn-lte-container {
+	width: 24% !important;
+	padding: 0;
+	margin: 0 0.5% !important;
+}
+.lte-container .btn-lte-container a {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.lte-container .btn-lte-container a:hover{
+	color: #000;
+}
+.lte-container .btn-lte-container.active a:hover,
+.lte-container .btn-lte-container.active a{
+	color: #fff;
+}
+.lte-container .btn-lte-container.active a .col-change{
+	color: #ffffff;
+}
+.lte-container .btn-lte-container.active a .cta:after {
+    content: "  ➤";
+}
+.btn-lte-container{
+	position: relative;
+	min-height: 170px;
+	width: 25%;
+	margin: 0 !important;
+	bottom: 0 !important;
+}
+.nav-tabs{
+	border-bottom: 0;
+}
+.btn-lte{
+	position: absolute !important;
+	bottom: 0 !important;
+	height: auto;
+	padding: 20px 0;
+	width: 100%;
+}
+.bg-gray-lighter-imp {
+  background: #fafafa;
+}
+.round-left-corner {
+ border-radius: 5px 0 0 5px;
+ box-shadow: 1px 1px 3px #E5E5E5;
+}
+.btn-select-plan{
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	width: 226px;
+}
+.plan-head{
+	font-size: 35px;
+}
+h5.plan-head, .h3.plan-head {
+	font-size: 26px;
+}
+.v-align-10{
+	vertical-align: 10px;
+}
+.simple-plan {
+    min-height: 400px;
+}
+.btn-lte-container .ctabtn{
+	background: -moz-linear-gradient(center top , #FFFFFF 0pt, #F8F8F8 100%) repeat-x scroll 0 0 transparent;
+	background-image: -moz-linear-gradient(#FFFFFF, #F8F8F8);
+	background-image: -webkit-linear-gradient(#FFFFFF, #F8F8F8);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#F8F8F8));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F8F8F8));
+	background-image: linear-gradient(#FFFFFF, #F8F8F8);
+    border: 1px solid rgba(220, 220, 220, 0.75)!important;
+    border-radius: 6px 6px 6px 6px !important;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.btn-lte-container.active .ctabtn{
+	background-image: -moz-linear-gradient(#E83390, #E20275);
+	background-image: -webkit-linear-gradient(#E83390, #E20275);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E83390), to(#E20275));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E83390), to(#E20275));
+	background-image: linear-gradient(#E83390, #E20275);
+ 	color: #ffffff;
+	text-shadow:none;   
+}
+
+
+@media (min-width: 1200px) {
+	.btn-select-plan{
+	width: 350px;
+	}
+	
+}
+@media (min-width: 992px) {
+	.btn-select-plan{
+	width: 226px;
+	}
+	.simple-plan {
+    min-height: 365px;
+	}
+
+}
+@media (max-width: 991px) {
+	.plan-head {
+	    font-size: 24px;
+	}
+	h5.plan-head, .h3.plan-head {
+		font-size: 18px;
+	}
+	.btn-lte-container .h3 {
+    font-size: 16px;
+	}
+	.btn-lte-container .text-x-large {
+    font-size: 14px;
+	}
+	.simple-plan {
+    min-height: 400px;
+	}
+}
+@media (min-width: 768px) {
+	.btn-select-plan{
+	width: 190px;
+	}
+	
+}
+@media (max-width: 767px) {
+	.plan-head {
+	    font-size: 25px;
+	}
+	h5.plan-head, .h3.plan-head {
+		font-size: 25px;
+	}
+	.simple-plan {
+    min-height: 195px;
+	}
+	.btn {
+    height: 58px;
+	}
+	.lte-container .btn-lte-container{
+	display: block!important;
+	min-height: 140px!important;
+	width: auto;
+	}
+	.lte-container .btn-lte-container:last-child{
+	min-height: 175px!important;
+	}
+	.btn-lte-container .text-x-large {
+    font-size: 14px;
+	}
+	.lte-container .btn-lte-container.col-ph-80p{
+		width: 80%!important;
+	}
+	.lte-container .btn-lte-container.col-ph-85p{
+		width: 85%!important;
+	}
+	.lte-container .btn-lte-container.col-ph-90p{
+		width: 90%!important;
+	}
+	.lte-container .btn-lte-container.col-ph-95p{
+		width: 95%!important;
+	}
+	.lte-container .hidden-ph {
+    display: none !important;
+	}
+	.bg-white-ph {
+	  background-color: #fff;
+	}
+}
+
+
+
+/*selected-plan-float start*/
+
+@media (min-width: 768px) {
+.selected-plan-float .container_float-nav {
+  position: absolute;
+  min-height: 300px;
+  z-index: 1000;
+  }
+.selected-plan-float .container_float-nav .title {
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  border: 1px solid #f65924;
+}
+.selected-plan-float .container_float-nav .filter {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+.affix {
+  position: fixed !important;
+  top: 20px;
+  width:27%;
+}
+.affix-bottom {
+  position: absolute;
+}
+/*selected-plan-float end*/
+}
+/*cellphone-family up-front-modal starts*/
+.cellphone-family .modal-dialog{
+	width: 60%;
+}
+.cellphone-family .us-vs-them ul li{
+                padding: 20px;
+                height: auto;
+}
+.cellphone-family .header-bg-color{
+                background-color: #f7f7f7;
+}
+.cellphone-family .icon-black-tick{
+                background: url("../../../../globallibs/shared/img/black-right.png") center center no-repeat;
+                width: 50px;
+                height: 50px;
+                display: block;
+} 
+/*cellphone-family up-front-modal ends*/
+
+
+/*--Mobile internet page--*/
+
+.hotspot-description p{
+	font-size: 17.4px;
+	color: #363636;
+}
+.mob-slider-container ul li{
+	display: block;
+	width: 16.666667%;
+	float: left;
+}
+.mob-slider-container ul li.active a {
+    background-color: #e1e1e1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 0 #c8c8c8 inset;
+    color: #555;
+}
+.slider-navigation li a {
+    color: #9b9b9b;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto 9px;
+    padding: 7px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+.slider-navigation li a:focus {
+	outline: none;
+	text-decoration: none;
+}
+.slider-navigation li.active a .active-arrow {
+    background-image: url("../../../../globallibs/shared/img/plans-carets.png");
+    background-position: left bottom;
+    border: 0 none;
+    bottom: -8px;
+    display: block;
+    height: 8px;
+    left: 44%;
+    position: absolute;
+    width: 14px;
+}
+
+@media (max-width: 767px){
+	.mob-slider-container ul {
+	    margin: 10px 0 2px;
+	    overflow: hidden;
+	    padding: 0;
+	}	
+	.mob-slider-container .slider-navigation li {
+	    display: block;
+	    float: none;
+	    margin: 10px 0;
+	    width: auto;
+	}
+	.mob-slider-container .slider-navigation li a:hover, .mob-slider-container .slider-navigation li.active a {
+	    background: linear-gradient(to bottom, #e83390 0px, #e7288a 28%, #e30a79 80%, #e20275 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -moz-background: linear-gradient(to bottom, #e83390 0px, #e7288a 28%, #e30a79 80%, #e20275 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -webkit-background: linear-gradient(to bottom, #e83390 0px, #e7288a 28%, #e30a79 80%, #e20275 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -o-background: linear-gradient(to bottom, #e83390 0px, #e7288a 28%, #e30a79 80%, #e20275 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    box-shadow: none;
+	    -ms-background: linear-gradient(to bottom, #e83390 0px, #e7288a 28%, #e30a79 80%, #e20275 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    box-shadow: none;
+	    color: #fff;
+	}
+	.slider-navigation a span.show-ph {
+	    display: block;
+	    font-size: 14px;
+	}
+	.slider-navigation li a {
+	    background: linear-gradient(to bottom, #fff 0px, #f8f8f8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -moz-background: linear-gradient(to bottom, #fff 0px, #f8f8f8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -webkit-background: linear-gradient(to bottom, #fff 0px, #f8f8f8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -o-background: linear-gradient(to bottom, #fff 0px, #f8f8f8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    -ms-background: linear-gradient(to bottom, #fff 0px, #f8f8f8 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	    border: 1px solid #ccc;
+	    border-radius: 10px;
+	    box-shadow: none;
+	    color: #e20074;
+	    font-size: 18px;
+	    margin: 0;
+	    padding: 10px;
+	    text-align: left;
+	    width: auto !important;
+	}
+	.slider-navigation li.active a .active-arrow {
+	    background-position: left top;
+	    bottom: 0;
+	    height: 19px;
+	    left: auto;
+	    right: -11px;
+	    top: 38%;
+	    width: 11px;
+	}
+	.slider-navigation .data-item-0{
+		width: 70% !important;
+	}
+	.slider-navigation .data-item-1{
+		width: 75% !important;
+	}
+	.slider-navigation .data-item-2{
+		width: 80% !important;
+	}
+	.slider-navigation .data-item-3{
+		width: 85% !important;
+	}
+	.slider-navigation .data-item-4{
+		width: 90% !important;
+	}
+	.slider-navigation .data-item-5{
+		width: 95% !important;
+	}
+	.data-link a{
+		font-size: 12px;
+	}
+	.featured-plans .text-small-ph{
+		font-size: 12.8px;
+	}
+	.featured-plans .text-large-ph{
+		font-size: 19.2px;
+	}
+	.featured-plans .text-x-large-ph{
+		font-size: 24px;
+	}
+}
+
+.mob-slider{
+	background-color: #e1e1e1;
+    box-shadow: 2px 2px 1px 0 #c8c8c8 inset;
+    padding: 15px 20px;
+}
+.mob-slider .slider-white{
+	height: 2px;
+	background: #fff;
+}
+ .mob-slider .slider-white a{
+    background-color: #e51a82;
+    display: block;
+    height: 10px;
+    top: -5px;
+    width: 10.5%;
+    z-index: 2;
+}
+.icon-mobile-internet{
+	background: url("../../../../globallibs/shared/img/icon-mobile-internet.png") no-repeat;
+	height:30px;
+	width: 30px;
+}
+.mobile-icon-post{
+	background-position: 0 -72px;
+}
+.mobile-icon-view{
+	background-position: 0 0;
+}
+.mobile-icon-send{
+	background-position: 0 -35px;
+}
+.mobile-icon-music{
+	background-position: 0 -113px;
+}
+/* Need to move  in global css as it is for view more question functionality */
+
+.collapsed-view {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.expanded-view {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 5px solid #555;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.toggle-question .show-toggle:focus {
+    outline: medium none;
+    text-decoration: none;
+}
+.toggle-question .show-toggle {
+    color: #555;
+    font-size: 0.9em;
+}
+.toggle-question .show-toggle:hover {
+    color: #ba0060 !important;
+}
+
+
+/*--individual page modal full width <hr> fixing--*/
+@media (max-width:767px) {
+	#trade-in-device-modal hr.full-width {
+		margin-left: -15px !important;
+		margin-right: -15px !important;
+	}
+	
+}
+

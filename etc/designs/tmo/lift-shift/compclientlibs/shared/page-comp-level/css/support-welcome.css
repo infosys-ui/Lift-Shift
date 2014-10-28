@@ -1,0 +1,131 @@
+/*-- Sub header --*/
+.sub-header{
+    background: #6a6a6a;
+    color: #fff;
+}
+.sub-header .container ul, 
+.sub-header .container ul li{
+    display: inline-block;
+}
+@media (min-width: 768px) {
+.sub-header .container ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 15px;
+}
+}
+
+@media (max-width: 767px) {
+
+   .sub-header .container ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+} 
+}
+
+.sub-header .container ul li.first a{
+    border-right: 1px solid #000;
+}
+.search-img {
+    left: 4px;
+    top: 2px;
+}
+.sub-search-main .sub-search input {
+    border: 1px solid #000;
+    color: #333;
+    font-size: 12px;
+    padding: 3px 0 3px 20px;
+    width: 180px;
+}
+.sub-search-main .sub-search input:focus {
+    border: 1px solid #66afe9;
+    outline: 0 none;
+}
+.support-container{
+    background-color: #e5eef7;
+    border: 1px solid #96c2ee;
+}
+.support-container span a{
+    color: #3a67a1;
+}
+.support-tab-main .nav li, .sub-tabs ul li{
+    float: left;
+    text-align: center;
+    outline: none;
+}
+.support-tab-main .nav li a:focus{
+   outline: none; 
+}
+.support-tab-main .nav li a{
+    width: 100%;
+    border-radius: 0;
+    background: #e8e8e8;
+    border-color: #e8e8e8 #e8e8e8 #dddddd;
+}
+.support-tab-main .nav > li.active > a,
+.support-tab-main .nav > li.active > a:hover, 
+.support-tab-main .nav > li.active > a:focus{
+    background: none;
+    border: none;
+}
+.sub-tabs ul li{
+    display: inline-block;
+}
+.sub-tabs ul li a{
+    color: #9b9b9b;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.tab-icons{
+    background: url("../../../../globallibs/shared/img/support/tab-icons.png") no-repeat;
+    height: 65px;
+    width: 65px;
+}
+.tab-phones{
+    background-position: 0 -520px;
+}
+.tab-post{
+    background-position: 0 -325px;
+}
+.tab-account{
+    background-position: 0 -650px;
+}
+.tab-coverage{
+    background-position: 0 0;
+}
+.tab-facebook{
+    background-position: 0 -65px;
+}
+.tab-plan{
+    background-position: 0 -455px;
+}
+.tab-business{
+    background-position: 0 -260px;
+}
+.tab-question{
+    background-position: 0 -130px;
+}
+.tab-source{
+    background-position: 0 -585px;
+}
+.tab-twitter{
+    background-position: 0 -715px;
+}
+.tab-google{
+    background-position: 0 -390px;
+}
+.tab-reach{
+    background-position: 0 -195px;
+}
+.support-links .border-top-0px{
+    border-top: 0px;
+}
+.find-help-container .banner.clouds {
+	background-color: #000;
+	background-image: url(../../../../globallibs/shared/img/support/banner-third-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-position: 100% 0;
+}

@@ -1,0 +1,142 @@
+/*** Cover page css ***/
+@media (max-width: 767px){
+    .Features{
+        font-size: 15px;
+    }
+    .h1-ph{
+        font-size: 25px;	
+    }
+    .cover-titlt-ph{
+        font-size: 20px;
+    }
+    .co_video-holder .row .text-small-ph{
+        font-size: 12px;
+    }
+    .co_video-holder .row .video-title-ph{
+        font-size: 14px;
+    }
+}
+.share-link a:hover{
+    color: #000000;
+}
+.icon-share-black{
+    width:15px;
+    height:15px;
+    background-position:-80px -1014px;
+}
+
+@media (max-width: 767px){
+
+    .input-coverage-holder .btn {
+        height: 35px;
+        line-height: 35px;
+        width: 100% !important;
+    } 
+
+    .coverage-map input.store-icon {
+        background:  #ffffff !important;
+        border-radius: 0px !important;
+        font-size: 21px !important;
+        height: 45px !important;
+        padding-left: 10px !important;
+        width: 270px;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        font-style: italic;
+    }
+    .map-holder{
+        background: none !important;
+        height: auto;
+    }
+    /*.slide{
+        width:100px !important;
+    }*/
+	.slick-slide{
+        width: 50% !important;
+    }
+	.coverage-map input.store-icon {
+		width: 93% !important;
+}
+}
+@media (min-width: 768px){
+    .input-coverage-holder{
+        left:12%;
+        top:20px;
+        width:80%;
+    }  
+    .map-holder{
+        background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/map.png") left top no-repeat;
+        height: 750px;
+    }
+    .slick-track{
+        width: 100% !important;
+    }
+    .slick-slide{
+        width: 36.5% !important;
+    }
+}
+
+.input-coverage-holder .input-width{
+    width: 300px;
+}
+.input-coverage-holder .btn{
+    height: 35px;
+    width: 160px;
+    line-height: 35px;    
+}
+.coverage-map{
+    background-color: #e8e8e8;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    padding: 25px 0 0 0 ;
+}
+.swatch-main ul li{
+    float: left;
+    padding: 0 15px;
+    min-width: 60px;
+}
+.swatch-color{
+    height: 28px;
+    width: 28px;
+    border: 5px solid #ffffff;
+    margin: 0 auto;
+}
+.swatch-text a{
+    color: #555555;
+}
+.dark-pink{
+    background: #ff0096;
+}
+.light-pink{
+    background:#fa4ca7;
+}
+.lighter-pink{
+    background:#fc92c9;
+}
+.darkpink{
+    background:#b64780;
+}
+.darkblack-pink{
+    background:#7a2450;
+}
+.light-gray{
+    background:#f0f0f0;
+}
+
+/**/
+.coverage-map input.store-icon {
+    background: url("../../../../../../../../etc/designs/tmo/lift-shift/globallibs/shared/img/icon-locator-store.png") 7px 9px no-repeat #ffffff;
+    border-radius: 4px;
+    height: 37px;
+    padding-left: 30px;
+    width: 270px;
+}
+
+.form-coverage{
+    margin: 0 auto;
+    float:none;
+}
+.form-coverage .input-group{
+    width:93%
+}
+

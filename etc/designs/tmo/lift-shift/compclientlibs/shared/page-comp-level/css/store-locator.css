@@ -1,0 +1,63 @@
+/*--Store Locator Page css--*/
+.store-printer{
+	cursor: pointer;
+}
+.map-canvas {
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+	height: 436px;
+	overflow: hidden;
+}
+.map-canvas .map-api {
+	height: 100%;
+	width: auto;
+	background-image: url(../../../../globallibs/shared/img/map.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.key-search{
+    height: 32px;
+    margin: 0;
+    padding: 0 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.store-icon{
+	background: url("../../../../globallibs/shared/img/icon-store.png") no-repeat;
+	height:29px;	
+	width:30px;
+	z-index: 999;
+	left: 4px;
+    top: 2px;
+}
+.store-search-group .input-group-addon {
+    background-color: #e82089;
+    border-radius: 0;
+    border-left: 0;
+    padding: 6px 12px;
+    text-align: center;
+    border: 0;
+}
+.address-holder{
+	font-size: 14px;
+}
+.push-pin-store{
+	background: url("../../../../globallibs/shared/img/google-marker-head.png") no-repeat;
+	height:18px;
+	width: 18px;
+}
+.push-pin-retailer{
+	background: url("../../../../globallibs/shared/img/google-marker-auto.png") no-repeat;
+	height:18px;
+	width: 18px;
+}
+.push-pin-address{
+	background: url("../../../../globallibs/shared/img/help-point-1.png") no-repeat;
+	height:41px;
+	width: 26px;
+}
